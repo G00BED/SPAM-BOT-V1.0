@@ -32,13 +32,13 @@ def AiGeneration():
 def store_responses_periodically(function , filename="CODING/responses.txt", interval=9000):
     
     from_email = "goob.robot@gmail.com"
-    to_email = "dylannoble134@gmail.com, kylern36@gmail.com, Soeskia@gmail.com, reichen.simpson@gmail.com"
+    to_email = "TO EMAIL"
     subject = "YOU HAVE AN IMPORTANT MESSAGE FROM GOOB BOT!"
     message = ""
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     login = "goob.robot@gmail.com"
-    password = "wnwj otjy qoqb ynrf"
+    password = "PASSWORD"
 
     #Sends  email upon request
     def send_email(from_email, to_email, subject, message, smtp_server, smtp_port, login, password):
